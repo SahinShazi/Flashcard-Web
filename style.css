@@ -1,0 +1,44 @@
+/* style.css */
+
+/* Flashcard styles */
+.flashcard {
+  perspective: 1000px;
+  width: 100%;
+  min-height: 120px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  min-height: 120px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.flashcard.flipped .flashcard-inner {
+  transform: rotateY(180deg);
+}
+.flashcard-front, .flashcard-back {
+  position: absolute;
+  width: 100%;
+  min-height: 120px;
+  backface-visibility: hidden;
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flashcard-back {
+  transform: rotateY(180deg);
+  background: #f8f9fa;
+}
+@media (max-width: 576px) {
+  .flashcard, .flashcard-inner, .flashcard-front, .flashcard-back {
+    min-height: 80px;
+    font-size: 1rem;
+  }
+}
