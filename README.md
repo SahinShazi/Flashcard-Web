@@ -37,11 +37,10 @@ README.md       # This file
 
 ## 📸 Screenshots
 
-![Homepage Example](ome.js)
+![Homepage Example](home.js)
 ![Create Flashcards Example](question.jpg)
 ![Practice Mode Example](mode.jpg)
 
-*(Replace the above URLs with your own screenshots if desired)*
 
 ## ✨ Customization
 - You can easily change the styles in `style.css` or add more features in `script.js`.
