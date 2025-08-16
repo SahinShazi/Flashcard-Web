@@ -37,7 +37,7 @@ README.md       # This file
 
 ## 📸 Screenshots
 
-![Homepage Example](home.js)
+![Homepage Example](home.jpg)
 ![Create Flashcards Example](question.jpg)
 ![Practice Mode Example](mode.jpg)
 
