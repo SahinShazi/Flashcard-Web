@@ -37,9 +37,9 @@ README.md       # This file
 
 ## 📸 Screenshots
 
-![Homepage Example](https://user-images.githubusercontent.com/placeholder/homepage.png)
-![Create Flashcards Example](https://user-images.githubusercontent.com/placeholder/create.png)
-![Practice Mode Example](https://user-images.githubusercontent.com/placeholder/practice.png)
+![Homepage Example](ome.js)
+![Create Flashcards Example](question.jpg)
+![Practice Mode Example](mode.jpg)
 
 *(Replace the above URLs with your own screenshots if desired)*
 
